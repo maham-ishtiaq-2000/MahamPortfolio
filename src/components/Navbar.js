@@ -36,8 +36,8 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="http://www.logicstime.com/" target="_blank">
-          <MdDeveloperMode style={{ marginBottom: "2px" }} /> Logicstime.com
+        <Navbar.Brand target="_blank">
+          <MdDeveloperMode style={{ marginBottom: "2px" }} /> Maham
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -82,21 +82,21 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
+                href="https://medium.com/@mahamdaudahmed"
+                target="_blank"
+                rel="noreferrer"
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-                href="http://www.logicstime.com/"
-                target="_blank"
-                rel="noreferrer"
+                href="https://github.com/maham-ishtiaq-2000/Resume/blob/main/MahamDawood.pdf"
+                download="Resume_Maham.pdf"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
           </Nav>

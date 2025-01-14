@@ -7,32 +7,17 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sunil Yadav </span>
-            from <span className="purple"> Lucknow, India.</span>
-            <br />
-            Software Engineer who loves to transform ideas into reality using
-            code.
+            I am a Computer Scientist who just graduated from the premier IT university COMSATS University Islamabad in Computer Science Majors. I am a highly skilled professional developer who loves to take on the challenges and then solve them.
             <br />
             Motivated designer and developer with experience creating
-            custom websites with ReactJs, JavaScript, HTML5, CSS3. Shopify app using ReactJs, Javascript, Polaris, Graphql, nodejs, Koajs
+            custom websites with ReactJs, JavaScript, HTML5, CSS3. Shopify app using ReactJs, Javascript, ViteJS, nodejs, 
             and Mobile App using React-native.
             <br />
             Apart from coding, some other activities that I love to do!
+            <br />
+            I have worked on key projects, including building a Progressive Web App for a London-based grocery shop using Shopify APIs. As a freelancer, I developed the complete front end for a startup. I also integrated the Hugging Face API to create a chatbot that acts as a PDF reader.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Watching Movies
-            </li>
-          </ul>
+        
         </blockquote>
       </Card.Body>
     </Card>
